@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import StreamChatClient
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        // Configure StreamChat
+        Client.configureShared(.init(apiKey: Keys.STREAM_CHAT_API_KEY, logOptions: .info))
         
         return true
     }
