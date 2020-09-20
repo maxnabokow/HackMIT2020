@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 import StreamChatClient
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        // Configure Firebase
+        FirebaseApp.configure()
         
         // Configure StreamChat
         Client.configureShared(.init(apiKey: Keys.STREAM_CHAT_API_KEY, logOptions: .info))

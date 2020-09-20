@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD3CAB2F4DAA027F27270D7 /* Pods_HackMIT2020__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97E52DEA0B65AE71379A1BF /* Pods_HackMIT2020__iOS_.framework */; };
+		503CFFD62515C340001F8635 /* StreamChatCore in Frameworks */ = {isa = PBXBuildFile; productRef = 503CFFD52515C340001F8635 /* StreamChatCore */; };
+		503CFFD82515C340001F8635 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 503CFFD72515C340001F8635 /* StreamChat */; };
+		503CFFDA2515C340001F8635 /* StreamChatClient in Frameworks */ = {isa = PBXBuildFile; productRef = 503CFFD92515C340001F8635 /* StreamChatClient */; };
 		508B3BA72515B9EB00412947 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508B3BA62515B9EB00412947 /* Tests_iOS.swift */; };
 		508B3BB22515B9EB00412947 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508B3BB12515B9EB00412947 /* Tests_macOS.swift */; };
 		508B3BB42515B9EB00412947 /* HackMIT2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508B3B8B2515B9E600412947 /* HackMIT2020App.swift */; };
@@ -15,6 +19,27 @@
 		508B3BB72515B9EB00412947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508B3B8C2515B9E600412947 /* ContentView.swift */; };
 		508B3BB82515B9EB00412947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508B3B8D2515B9EB00412947 /* Assets.xcassets */; };
 		508B3BB92515B9EB00412947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508B3B8D2515B9EB00412947 /* Assets.xcassets */; };
+		50CF5A732517819D006AF994 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CF5A722517819D006AF994 /* HomeView.swift */; };
+		50CF5A79251786AD006AF994 /* YourSchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CF5A78251786AD006AF994 /* YourSchoolView.swift */; };
+		50D2DFF22515CA010066588E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2DFF12515CA010066588E /* Config.swift */; };
+		50D2DFF32515CA010066588E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2DFF12515CA010066588E /* Config.swift */; };
+		50D2DFF92515CB710066588E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2DFF82515CB710066588E /* LoginView.swift */; };
+		50D2DFFA2515CB710066588E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2DFF82515CB710066588E /* LoginView.swift */; };
+		50D2E0002515CBDF0066588E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2DFFF2515CBDF0066588E /* ChatView.swift */; };
+		50D2E0012515CBDF0066588E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2DFFF2515CBDF0066588E /* ChatView.swift */; };
+		50D2E0602516DA290066588E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2E05F2516DA290066588E /* MessageView.swift */; };
+		50D2E0612516DA290066588E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2E05F2516DA290066588E /* MessageView.swift */; };
+		50D2E0682516DBB60066588E /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 50D2E0672516DBB60066588E /* StreamChat */; };
+		50D2E06A2516DBB60066588E /* StreamChatClient in Frameworks */ = {isa = PBXBuildFile; productRef = 50D2E0692516DBB60066588E /* StreamChatClient */; };
+		50D2E06C2516DBB60066588E /* StreamChatCore in Frameworks */ = {isa = PBXBuildFile; productRef = 50D2E06B2516DBB60066588E /* StreamChatCore */; };
+		50D2E0722516E0030066588E /* List+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2E0712516E0030066588E /* List+Ext.swift */; };
+		50D2E0732516E0030066588E /* List+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2E0712516E0030066588E /* List+Ext.swift */; };
+		50F4C11D2517096F0048FF49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50F4C11C2517096F0048FF49 /* GoogleService-Info.plist */; };
+		50F4C127251721F00048FF49 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4C126251721F00048FF49 /* School.swift */; };
+		50F4C13125172C160048FF49 /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4C13025172C160048FF49 /* StudentInfo.swift */; };
+		50F4C13B25172FC50048FF49 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4C13A25172FC50048FF49 /* SetupView.swift */; };
+		50F4C141251730830048FF49 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4C140251730830048FF49 /* Student.swift */; };
+		95F16DDC1EE924DFCF8CDBED /* Pods_HackMIT2020__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39F41014E98054BEE890523 /* Pods_HackMIT2020__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09216D0DC3B9FC9ECC1E5D1F /* Pods-HackMIT2020 (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackMIT2020 (macOS).debug.xcconfig"; path = "Target Support Files/Pods-HackMIT2020 (macOS)/Pods-HackMIT2020 (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		150CE98466DEF03FD5F9C944 /* Pods-HackMIT2020 (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackMIT2020 (iOS).release.xcconfig"; path = "Target Support Files/Pods-HackMIT2020 (iOS)/Pods-HackMIT2020 (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		1C4A8EC40747B9134C5A27BB /* Pods-HackMIT2020 (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackMIT2020 (macOS).release.xcconfig"; path = "Target Support Files/Pods-HackMIT2020 (macOS)/Pods-HackMIT2020 (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		508B3B8B2515B9E600412947 /* HackMIT2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackMIT2020App.swift; sourceTree = "<group>"; };
 		508B3B8C2515B9E600412947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		508B3B8D2515B9EB00412947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +77,21 @@
 		508B3BAD2515B9EB00412947 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508B3BB12515B9EB00412947 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		508B3BB32515B9EB00412947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CF5A722517819D006AF994 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50CF5A78251786AD006AF994 /* YourSchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourSchoolView.swift; sourceTree = "<group>"; };
+		50D2DFF12515CA010066588E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		50D2DFF82515CB710066588E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		50D2DFFF2515CBDF0066588E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		50D2E05F2516DA290066588E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		50D2E0712516E0030066588E /* List+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+Ext.swift"; sourceTree = "<group>"; };
+		50F4C11C2517096F0048FF49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50F4C126251721F00048FF49 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		50F4C13025172C160048FF49 /* StudentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
+		50F4C13A25172FC50048FF49 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		50F4C140251730830048FF49 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		BD5F4D6BBBE1FA212EBCE910 /* Pods-HackMIT2020 (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackMIT2020 (iOS).debug.xcconfig"; path = "Target Support Files/Pods-HackMIT2020 (iOS)/Pods-HackMIT2020 (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		E97E52DEA0B65AE71379A1BF /* Pods_HackMIT2020__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackMIT2020__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F41014E98054BEE890523 /* Pods_HackMIT2020__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackMIT2020__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +99,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503CFFD82515C340001F8635 /* StreamChat in Frameworks */,
+				503CFFDA2515C340001F8635 /* StreamChatClient in Frameworks */,
+				503CFFD62515C340001F8635 /* StreamChatCore in Frameworks */,
+				1BD3CAB2F4DAA027F27270D7 /* Pods_HackMIT2020__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +110,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D2E0682516DBB60066588E /* StreamChat in Frameworks */,
+				50D2E06C2516DBB60066588E /* StreamChatCore in Frameworks */,
+				50D2E06A2516DBB60066588E /* StreamChatClient in Frameworks */,
+				95F16DDC1EE924DFCF8CDBED /* Pods_HackMIT2020__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +138,14 @@
 			isa = PBXGroup;
 			children = (
 				508B3B8A2515B9E600412947 /* Shared */,
+				50F4C11C2517096F0048FF49 /* GoogleService-Info.plist */,
 				508B3B942515B9EB00412947 /* iOS */,
 				508B3B9B2515B9EB00412947 /* macOS */,
 				508B3BA52515B9EB00412947 /* Tests iOS */,
 				508B3BB02515B9EB00412947 /* Tests macOS */,
 				508B3B932515B9EB00412947 /* Products */,
+				50D2E0662516DBB50066588E /* Frameworks */,
+				70D7E29A1783C3CE9C4B3E92 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +154,19 @@
 			children = (
 				508B3B8B2515B9E600412947 /* HackMIT2020App.swift */,
 				508B3B8C2515B9E600412947 /* ContentView.swift */,
+				50CF5A722517819D006AF994 /* HomeView.swift */,
+				50CF5A78251786AD006AF994 /* YourSchoolView.swift */,
+				50D2DFFF2515CBDF0066588E /* ChatView.swift */,
+				50F4C13A25172FC50048FF49 /* SetupView.swift */,
 				508B3B8D2515B9EB00412947 /* Assets.xcassets */,
+				50D2DFF82515CB710066588E /* LoginView.swift */,
+				50D2E0282516271A0066588E /* Models */,
+				50D2E02D251627290066588E /* ViewModels */,
+				50D2E036251627460066588E /* Views */,
+				50D2E037251627580066588E /* Util */,
+				50F4C126251721F00048FF49 /* School.swift */,
+				50F4C13025172C160048FF49 /* StudentInfo.swift */,
+				50F4C140251730830048FF49 /* Student.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -151,6 +217,57 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		50D2E0282516271A0066588E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50D2E02D251627290066588E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		50D2E036251627460066588E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50D2E05F2516DA290066588E /* MessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50D2E037251627580066588E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				50D2DFF12515CA010066588E /* Config.swift */,
+				50D2E0712516E0030066588E /* List+Ext.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		50D2E0662516DBB50066588E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97E52DEA0B65AE71379A1BF /* Pods_HackMIT2020__iOS_.framework */,
+				F39F41014E98054BEE890523 /* Pods_HackMIT2020__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70D7E29A1783C3CE9C4B3E92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD5F4D6BBBE1FA212EBCE910 /* Pods-HackMIT2020 (iOS).debug.xcconfig */,
+				150CE98466DEF03FD5F9C944 /* Pods-HackMIT2020 (iOS).release.xcconfig */,
+				09216D0DC3B9FC9ECC1E5D1F /* Pods-HackMIT2020 (macOS).debug.xcconfig */,
+				1C4A8EC40747B9134C5A27BB /* Pods-HackMIT2020 (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,15 +275,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 508B3BBC2515B9EB00412947 /* Build configuration list for PBXNativeTarget "HackMIT2020 (iOS)" */;
 			buildPhases = (
+				1997F7133FC6497A334B0F77 /* [CP] Check Pods Manifest.lock */,
 				508B3B8E2515B9EB00412947 /* Sources */,
 				508B3B8F2515B9EB00412947 /* Frameworks */,
 				508B3B902515B9EB00412947 /* Resources */,
+				7B024B6CF74C82CB9D7A75A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "HackMIT2020 (iOS)";
+			packageProductDependencies = (
+				503CFFD52515C340001F8635 /* StreamChatCore */,
+				503CFFD72515C340001F8635 /* StreamChat */,
+				503CFFD92515C340001F8635 /* StreamChatClient */,
+			);
 			productName = "HackMIT2020 (iOS)";
 			productReference = 508B3B922515B9EB00412947 /* HackMIT2020.app */;
 			productType = "com.apple.product-type.application";
@@ -175,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 508B3BBF2515B9EB00412947 /* Build configuration list for PBXNativeTarget "HackMIT2020 (macOS)" */;
 			buildPhases = (
+				9B82760B3E9068EC0106E676 /* [CP] Check Pods Manifest.lock */,
 				508B3B962515B9EB00412947 /* Sources */,
 				508B3B972515B9EB00412947 /* Frameworks */,
 				508B3B982515B9EB00412947 /* Resources */,
@@ -184,6 +309,11 @@
 			dependencies = (
 			);
 			name = "HackMIT2020 (macOS)";
+			packageProductDependencies = (
+				50D2E0672516DBB60066588E /* StreamChat */,
+				50D2E0692516DBB60066588E /* StreamChatClient */,
+				50D2E06B2516DBB60066588E /* StreamChatCore */,
+			);
 			productName = "HackMIT2020 (macOS)";
 			productReference = 508B3B9A2515B9EB00412947 /* HackMIT2020.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +388,9 @@
 				Base,
 			);
 			mainGroup = 508B3B852515B9E600412947;
+			packageReferences = (
+				503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
 			productRefGroup = 508B3B932515B9EB00412947 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				508B3BB82515B9EB00412947 /* Assets.xcassets in Resources */,
+				50F4C11D2517096F0048FF49 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +437,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1997F7133FC6497A334B0F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackMIT2020 (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B024B6CF74C82CB9D7A75A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackMIT2020 (iOS)/Pods-HackMIT2020 (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackMIT2020 (iOS)/Pods-HackMIT2020 (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackMIT2020 (iOS)/Pods-HackMIT2020 (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B82760B3E9068EC0106E676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackMIT2020 (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		508B3B8E2515B9EB00412947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F4C13125172C160048FF49 /* StudentInfo.swift in Sources */,
+				50D2E0602516DA290066588E /* MessageView.swift in Sources */,
 				508B3BB62515B9EB00412947 /* ContentView.swift in Sources */,
+				50F4C141251730830048FF49 /* Student.swift in Sources */,
 				508B3BB42515B9EB00412947 /* HackMIT2020App.swift in Sources */,
+				50D2E0002515CBDF0066588E /* ChatView.swift in Sources */,
+				50F4C127251721F00048FF49 /* School.swift in Sources */,
+				50D2DFF92515CB710066588E /* LoginView.swift in Sources */,
+				50CF5A79251786AD006AF994 /* YourSchoolView.swift in Sources */,
+				50D2DFF22515CA010066588E /* Config.swift in Sources */,
+				50CF5A732517819D006AF994 /* HomeView.swift in Sources */,
+				50F4C13B25172FC50048FF49 /* SetupView.swift in Sources */,
+				50D2E0722516E0030066588E /* List+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +526,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D2E0612516DA290066588E /* MessageView.swift in Sources */,
 				508B3BB72515B9EB00412947 /* ContentView.swift in Sources */,
 				508B3BB52515B9EB00412947 /* HackMIT2020App.swift in Sources */,
+				50D2E0012515CBDF0066588E /* ChatView.swift in Sources */,
+				50D2DFFA2515CB710066588E /* LoginView.swift in Sources */,
+				50D2DFF32515CA010066588E /* Config.swift in Sources */,
+				50D2E0732516E0030066588E /* List+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +681,7 @@
 		};
 		508B3BBD2515B9EB00412947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5F4D6BBBE1FA212EBCE910 /* Pods-HackMIT2020 (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +704,7 @@
 		};
 		508B3BBE2515B9EB00412947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150CE98466DEF03FD5F9C944 /* Pods-HackMIT2020 (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +728,7 @@
 		};
 		508B3BC02515B9EB00412947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09216D0DC3B9FC9ECC1E5D1F /* Pods-HackMIT2020 (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +753,7 @@
 		};
 		508B3BC12515B9EB00412947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4A8EC40747B9134C5A27BB /* Pods-HackMIT2020 (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -696,6 +914,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		503CFFD52515C340001F8635 /* StreamChatCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatCore;
+		};
+		503CFFD72515C340001F8635 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		503CFFD92515C340001F8635 /* StreamChatClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatClient;
+		};
+		50D2E0672516DBB60066588E /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		50D2E0692516DBB60066588E /* StreamChatClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatClient;
+		};
+		50D2E06B2516DBB60066588E /* StreamChatCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 503CFFD42515C340001F8635 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 508B3B862515B9E600412947 /* Project object */;
 }
